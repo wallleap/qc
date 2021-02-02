@@ -1,0 +1,40 @@
+#app {
+  display: flex;
+  flex-direction: column;
+}
+span.code {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  background-color: rgba(0,0,121,.5);
+  margin-right: .5rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+@media (max-width: 750px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  
+  #app {
+    flex-direction: row;
+  }
+  
+  .page {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .page.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
