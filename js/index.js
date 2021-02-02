@@ -3,7 +3,7 @@
   let num = 0
   let question = null
   let op = null
-  let url = '../data/001qc.json'
+  let url = '../qc/data/001qc.json'
   let request = new XMLHttpRequest()
   request.open('get', url)
   request.send(null)
